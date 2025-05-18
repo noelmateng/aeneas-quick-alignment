@@ -1,0 +1,6 @@
+services: 
+  aeneas:
+    build: .
+    volumes: 
+      - ./data:/app/data 
+    command: "npm start"
